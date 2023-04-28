@@ -1,0 +1,15 @@
+body {
+    font-family: 'M PLUS 1', 'Noto Sans JP','Roboto',sans-serif;
+}
+
+// ブレイクポイント -------------------------------------
+$breakpoints: (
+    pc: "screen and (min-width:1920px)",
+    tb: "screen and (max-width:1919px) and(min-width:376px)",
+    sp: "screen and (max-width:375px)",
+  );
+  @mixin mq($breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+    }
+  }
