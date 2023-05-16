@@ -15,17 +15,17 @@
 
 <body>
     <header class="l-header">
-    <h1>Hamburger</h1>
-    <form method="get" class="search-form">
-        <label class="screen-reader-text">
-        <input type="text" name="search" class="search-form_keyword ">
-        <input type="text" name="search" class="search-form_submit">
-        </label>
+    <div class="p-nav__title">Menu</div>
+    <h1 class="p-header c-font__Mplus1">Hamburger</h1>
+    <form method="post" class="p-search">
+        <div class="p-search__box">
+        <input type="search" name="search" class="p-search__input c-input--search"></div>
+        <button type="submit" class="p-search__button c-button--search">検索</button>
     </form>
     </header>
 
     <article class="l-contents">
-        <div class="p-fv"></div>
+        <div class="p-fv"><img src="./img/front-page-top.jpg" alt="ハンバーガーサイトのファーストビュー"></div>
         <div class="p-branch-menu">
             <ul>
                 <li><h2>Take Out</h2>
@@ -50,14 +50,6 @@
             <div class="map"></div>
         </section>
     </article>
-
-    <footer class="l-footer p-footer">
-        <ul class="footer-menu">
-            <li>ショップ情報</li>
-            <li>ヒストリー</li>
-        </ul>
-        <small class="copyright">Copyright: RaiseTech</small>
-    </footer>
 
     <aside class="l-sidebar p-menu">
         <h2>Menu</h2>
@@ -92,5 +84,14 @@
             </li>
         </ul>
     </aside>
+
+    <footer class="l-footer">
+        <ul class="p-footer c-font__Mplus1">
+            <li>ショップ情報</li>
+            <li>|</li>
+            <li>ヒストリー</li>
+        </ul>
+        <small class="p-footer__copyright c-font__Mplus1">Copyright: RaiseTech</small>
+    </footer>
 </body>
 </html>  

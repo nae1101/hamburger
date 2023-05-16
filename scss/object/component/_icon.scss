@@ -1,0 +1,13 @@
+@use "../../foundation/mixin" as *;
+
+
+.c-icon {
+    &--mushimegane{
+        width: 24px;
+        height: 24px;
+        background-image: url(../../../img/mushimegane.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

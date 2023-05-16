@@ -1,0 +1,16 @@
+@use "../../foundation/mixin" as *;
+
+
+.p-nav {
+    &__title {
+        color: $gray;
+        font-family:"Roboto";
+        @include rem(20);
+        @include mq(tab){
+            display: none;
+        }
+        @include mq(pc){
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@use "../../foundation/mixin" as *;
+
+.p-footer {
+        &.c-font__Mplus1{
+            display: flex;
+        }
+        &.c-font__copyright {
+        @include rem(14);
+    }
+}

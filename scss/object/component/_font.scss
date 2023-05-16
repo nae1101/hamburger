@@ -1,0 +1,10 @@
+@use "../../foundation/mixin" as *;
+
+.c-font {
+    &__Mplus1 {
+    font-family: 'M PLUS 1',sans-serif;
+}
+    &__Robot {
+    font-family: 'Robot',sans-serif;
+}
+}

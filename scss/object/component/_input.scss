@@ -1,0 +1,11 @@
+@use "../../foundation/mixin" as *;
+
+
+.c-input {
+    &--search {
+        padding: 10px;
+        border: 1px solid $gray;
+        background-color: $white;
+        border-radius: 10px;
+    }
+}
