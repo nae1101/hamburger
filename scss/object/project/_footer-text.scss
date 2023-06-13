@@ -1,0 +1,30 @@
+@use "../../foundation/mixin" as *;
+
+
+.p-footer-text {
+    display: flex;
+    margin: 0 auto;
+    padding: 16px;
+    @include mq(tab){
+        padding: 30px;
+    }
+    @include mq(pc){
+        padding: 41px;
+    }
+
+    >li {
+        margin: 0 5px;
+    }
+
+    &.c-font__Mplus1 {
+        @include rem(18);
+
+        @include mq(tab){
+            @include rem(20);
+        }
+        @include mq(pc){
+            @include rem(20);
+        }
+        }
+}
+

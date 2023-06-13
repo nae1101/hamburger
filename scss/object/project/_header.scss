@@ -1,9 +1,0 @@
-@use "../../foundation/mixin" as *;
-
-.p-header {
-    color: $gray;
-    @include rem(40);
-    @include mq(pc){
-        @include rem(64);
-    }
-}

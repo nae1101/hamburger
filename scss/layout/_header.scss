@@ -4,10 +4,10 @@
 .l-header {
     background-color: $beige;
     width: 100%;
-    height: 125px;
 
-    h1{
-        color: $gray;
-        margin: 0 auto;
+    @include mq(pc){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

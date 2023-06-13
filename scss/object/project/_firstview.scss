@@ -1,0 +1,32 @@
+@use "../../foundation/mixin" as *;
+
+.p-firstview {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    >img {
+        width: 100%;
+        height: auto;
+    }
+    
+    &__title {
+        color: $white;
+        position: absolute;
+        top: 43%;
+        left: 6.7%;
+        @include rem(36);
+        font-weight: 700;
+
+        @include mq(tab){
+            @include rem(40);
+            left: 86px;
+        };
+
+        @include mq(pc){
+            @include rem(40);
+            top: 234px;
+            left: 86px;
+        };
+    }
+}

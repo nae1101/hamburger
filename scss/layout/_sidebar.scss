@@ -1,1 +1,11 @@
 @use "../foundation/mixin" as *;
+
+.l-sidebar {
+    background-color: $lightgray;
+    width: 100%;
+    height: auto;
+    display: none;
+    @include mq(pc){
+        display: block;
+    }
+}

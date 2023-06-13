@@ -8,48 +8,92 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;700&family=Noto+Sans+JP:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@700&family=M+PLUS+1:wght@400;700&family=Noto+Sans+JP:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
     <title>最終課題hamburgerサイト</title>
     
 </head>
 
 <body>
+    <main class="l-body">
+
+    <div class="l-container">
+
     <header class="l-header">
-    <div class="p-nav__title">Menu</div>
-    <h1 class="p-header c-font__Mplus1">Hamburger</h1>
+    <div class="p-nav__title c-font__Robot">Menu</div>
+    <div class="p-header-text__title">
+        <h1 class="c-font__Robot">Hamburger</h1>
+    </div>
     <form method="post" class="p-search">
         <div class="p-search__box">
         <input type="search" name="search" class="p-search__input c-input--search"></div>
-        <button type="submit" class="p-search__button c-button--search">検索</button>
+        <button type="submit" class="p-search__button c-button--search c-font__Mplus1">検索</button>
     </form>
     </header>
 
     <article class="l-contents">
-        <div class="p-fv"><img src="./img/front-page-top.jpg" alt="ハンバーガーサイトのファーストビュー"></div>
+        <div class="p-firstview">
+            <picture>
+                <source media="(max-width: 375px)" srcset="./img/sp-front-page-top.png">
+                <img src="./img/front-page-top.jpg" alt="ハンバーガーサイトのファーストビュー">
+            </picture>
+            <h2><p class="p-firstview__title c-font__Mplus1">ダミーサイト</p></h2>
+        </div>
         <div class="p-branch-menu">
             <ul>
-                <li><h2>Take Out</h2>
-                    <dl>Take Out</dl>
-                    <dt>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで
-                    </dt>
-                    <dl>Take Out</dl>
-                    <dt>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで
-                    </dt>
+                <li>
+                    <div class="p-branch-menu__01">
+                        <section class="p-branch-menu__title">
+                            <h2><p class="c-font__Robot">Take Out</p></h2>
+                            <div class="p-branch-menu__line"></div>
+                        </section>
+                        <div class="p-branch-menu__detail">
+                            <section class="p-branch-menu__whiteBox">
+                                <dl><p class="c-font__Mplus1Code">Take Out</p></dl>
+                                <dt><p class="c-font__Mplus1">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで</p></dt>
+                            </section>
+                            <section class="p-branch-menu__whiteBox">
+                                <dl><p class="c-font__Mplus1Code">Take Out</p></dl>
+                                <dt><p class="c-font__Mplus1">当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで</p></dt>
+                            </section>
+                        </div>
+                    </div>
                 </li>
-                <li><h2>Eat In</h2>
-                    <dl>Eat In</dl>
-                    <dt>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
-                    </dt>
+                <li>
+                    <div class="p-branch-menu__02">
+                        <section class="p-branch-menu__title">
+                            <h2><p class="c-font__Robot">Eat In<p></p></h2>
+                            <div class="p-branch-menu__line"></div>
+                        </section>
+                    <div class="p-branch-menu__detail">
+                        <section class="p-branch-menu__whiteBox">
+                            <dl><p class="c-font__Mplus1Code">Eat In</p></dl>
+                            <dt><p class="c-font__Mplus1">店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p></dt>
+                        </section>
+                        <section class="p-branch-menu__whiteBox">
+                            <dl><p class="c-font__Mplus1Code">Eat In</p></dl>
+                            <dt><p class="c-font__Mplus1">店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです</p></dt>
+                        </section>
+                    </div>
+                    </div>
                 </li>
             </ul>
         </div>
-        <section class="p-access">
-            <h2>見出しが入ります</h2>
-            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-            </p>
-            <div class="map"></div>
+        <section>
+            <div class="p-access">
+                <div class="p-access__img"></div>
+                <div class="p-access__textBox">
+                    <h2 class="p-access__title c-font__Mplus1">見出しが入ります</h2>
+                    <div class="p-access__line c-line"></div>
+                    <p class="p-access__text c-font__Mplus1">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                    </p>
+                </div>
+                <div class="p-access__blackBox"></div>
+            </div>
         </section>
     </article>
+
+</div>
 
     <aside class="l-sidebar p-menu">
         <h2>Menu</h2>
@@ -84,14 +128,15 @@
             </li>
         </ul>
     </aside>
+</main>
 
     <footer class="l-footer">
-        <ul class="p-footer c-font__Mplus1">
+        <ul class="p-footer-text c-font__Mplus1">
             <li>ショップ情報</li>
             <li>|</li>
             <li>ヒストリー</li>
         </ul>
-        <small class="p-footer__copyright c-font__Mplus1">Copyright: RaiseTech</small>
+        <small class="p-footer-copyright c-font__Mplus1">Copyright: RaiseTech</small>
     </footer>
 </body>
 </html>  

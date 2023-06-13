@@ -3,7 +3,7 @@
 
 .c-button {
     &--search{
-        background-color: $lightgray;
+        background: linear-gradient(to right,#F2EDE9,#DED8D3);
         border: 1px solid $gray;
         border-radius: 10px;
     }

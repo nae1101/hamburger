@@ -1,0 +1,73 @@
+@use "../../foundation/mixin" as *;
+
+.p-access {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+
+    &__img, &__blackBox, &__textBox {
+        position: absolute;
+        width: 100%;
+    }
+
+    
+    &__img {
+        // width: 100%;
+        height: 100vh;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        background-image: url(/img/map.png);
+        background-size: cover;
+        background-blend-mode: multiply;
+        z-index: 10;
+    }
+
+    &__blackBox {
+        // width: 100%;
+        height: 415px;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        z-index: 20;
+    }
+
+    &__textBox {
+        // width: 100%;
+        height: 100vh;
+        padding: 40px;
+        top: 0;
+        word-break: break-all;
+        z-index: 30;
+    }
+
+    &__title {
+        @include rem(30);
+        color: $white;
+    }
+
+    &__line {
+        width: 75px;
+    }
+
+    &__text {
+        width: 100%;
+        color: $white;
+        word-break: break-all;
+    }
+
+    // &__blackBox {
+    //     width: 61%;
+    //     height: auto;
+    //     background-color: rgba($color: #000000, $alpha: 0.5);
+    //     padding: 86px 134px 75px 119px;
+
+
+    //     >h2 {
+    //         color: $white;
+    //         @include rem(36);
+    //     }
+    //     >p {
+    //         color: $white;
+    //         @include rem(16);
+    //     }
+    // }
+
+}
