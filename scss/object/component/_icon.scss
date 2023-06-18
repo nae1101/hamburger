@@ -10,4 +10,33 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    &__close{
+        display: block;
+        position: relative;
+        width: 32px;
+        height: 36px;
+        
+        @include mq(pc){
+            display: block;
+        }
+    
+      &::before, &::after { /* 共通設定 */
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6px; /* 棒の幅（太さ） */
+        height: 32px; /* 棒の高さ */
+        background: #707070;
+      }
+    
+      &::before {
+        transform: translate(-50%,-50%) rotate(45deg);
+      }
+       
+      &::after {
+        transform: translate(-50%,-50%) rotate(-45deg);
+      }
+    }
 }

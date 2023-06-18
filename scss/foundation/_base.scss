@@ -24,3 +24,13 @@ h1,h2,h3,h4,h5,h6 {
     vertical-align:baseline;
     background:transparent;
 } 
+
+a,a:active,a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+}
+
+input::-webkit-search-cancel-button {    
+    -webkit-appearance: none;    /* デフォルトのサーチキャンセルボタンを非表示にする場合 */
+  }

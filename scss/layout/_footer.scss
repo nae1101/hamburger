@@ -1,11 +1,11 @@
 @use "../foundation/mixin" as *;
 
+//フッター
 .l-footer {
     width: 100%;
     height: auto;
     background: url(/img/footer.png);
     text-align: center;
-    color: white;
     display: flex;
     flex-flow: column;
     justify-content: space-between;

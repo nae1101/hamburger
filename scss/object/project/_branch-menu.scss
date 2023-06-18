@@ -1,11 +1,13 @@
 @use "../../foundation/mixin" as *;
 
+
 .p-branch-menu {
     width: 100%;
     height: auto;
-    background-color: $white;
+    background-color: #ffffff;
     display: block;
     padding: 5.3%;
+
     @include mq(tab){
         display: flex;
         padding: 4.7%;
@@ -25,14 +27,17 @@
     }
 
     >ul {
-        display: block;
+        display: flex;
+        flex-direction: column;
         height: 40%;
         gap: 4.7%;
+        row-gap: 20px;
         @include mq(tab){
-            display: flex;
+            flex-direction: row;
+
         }
         @include mq(pc){
-            display: flex;
+            flex-direction: row;
         }
 
         >li {
@@ -60,6 +65,18 @@
         color: $white;
         font-weight: 700;
         @include rem(41);
+
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 33.89px;
+            height: 0;
+            border-bottom: 4px solid $white;
+            padding: 3% 0;
+    
+        }
+
         @include mq(tab) {
             top: 2%;
             left: 11px;
@@ -70,15 +87,11 @@
             left: 11px;
             @include rem(80);
         };
-        .p-branch-menu__line {
-            border: solid $white 4px;
-            width: 20%;
-            margin: 25px 15px;
-        }
+
     }
 
     &__whiteBox {
-        background-color: $white;
+        background-color: #ffffff;
         opacity: 0.8;
         padding: 8px 16px;
         margin: 16px;
@@ -108,73 +121,4 @@
         }
     }
 
-    // &__02 {
-    //     width: 40%;
-    //     height: auto;
-    //     background: url(/img/eat-in.png);
-    //     position: relative;
-    // }
-
-    // @mixin menu-box {
-    //     background-color: $white;
-    //     top: 2%;
-    //     left: 11px;
-    //     position: absolute;
-    //     font-weight: 700;
-    //     @include rem(41);
-
-    //     @include mq(tab){
-    //         @include rem(44);
-    //     }
-    //     @include mq(pc){
-    //         @include rem(80);
-    //     }
-    // }
-
-    // &__title01 {
-    //     @include menu-box;
-    // }
-    // &__title02 {
-    //     @include menu-box;
-    // }
-    // &__line {
-    //     border: solid $white 1px;
-    //     width: 10%;
-    //     top: 13%;
-    // }
-    // &__detail {
-    // position: absolute;
-    // top: 46%;
-    // padding: 4.7%;
-    //     @include mq(pc){
-    //         top: 68%;
-    //     }
-    // }
-    // &__whiteBox {
-    // background-color: $white;
-    // width: 100%;
-    // height: auto;
-    // margin: 16px 0;
-    // overflow: hidden;
-    // opacity: 0.8;
-
-    // >dl {
-    //     font-weight: 700;
-    //     padding: 14px 20px;
-    //     @include rem(22);
-    //     @include mq(tab){
-    //         @include rem(24);
-    //     }
-    // }
-    // >dt {
-    //     padding: 4px 20px 14px 20px;
-    //     @include rem(16);
-    //     text-overflow : clip;
-    //     @include mq(tab){
-    //         @include rem(14);
-    //     }
-    //     @include mq(pc){
-    //         @include rem(16);
-    //     }
-    // }
 }

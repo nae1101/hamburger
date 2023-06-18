@@ -1,9 +1,10 @@
 @use "../foundation/mixin" as *;
 
-
+//ヘッダー
 .l-header {
-    background-color: $beige;
+    background-color: #FFF7EF;
     width: 100%;
+    position: relative;
 
     @include mq(pc){
         display: flex;

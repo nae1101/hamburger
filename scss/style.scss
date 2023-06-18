@@ -14,6 +14,7 @@
 @use "object/component/_input";
 @use "object/component/_font";
 @use "object/component/_line";
+@use "object/component/_fontweight";
 
 @use "object/project/_copyright";
 @use "object/project/_footer-text";
@@ -23,5 +24,6 @@
 @use "object/project/_firstview";
 @use "object/project/_branch-menu";
 @use "object/project/_access";
+@use "object/project/_sidebar-menu";
 
 @use "object/utility/_color";

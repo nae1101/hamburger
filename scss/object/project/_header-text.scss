@@ -1,11 +1,10 @@
 @use "../../foundation/mixin" as *;
 
+//ページタイトル
 .p-header-text {
     &__title {
-        color: $gray;
         padding: 43px 0 0 0;
         text-align: center;
-        font-weight: 700;
         
         >h1 {
             @include rem(40);
@@ -18,11 +17,5 @@
             padding: 65px;
         }
 
-    //     &.c-font__Robot {
-    //          @include rem(40);
-    //     @include mq(pc){
-    //         @include rem(64);
-    //     }
-    // }
 }
 }

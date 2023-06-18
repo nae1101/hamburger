@@ -1,11 +1,28 @@
 @use "../foundation/mixin" as *;
 
+//サイドバー
 .l-sidebar {
-    background-color: $lightgray;
-    width: 100%;
+    background-color: #F2EDE9;
+    width: 87.4%;
     height: auto;
-    display: none;
-    @include mq(pc){
-        display: block;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    right: -87.4%;
+
+    //クリックしたあとの状況
+    &.is-open {
+        right: 0;
+        overflow-y: scroll;
+        overscroll-behavior-y: contain;
     }
+
+    @include mq(pc){
+        width: 20%;
+        display: block;
+        padding: 84px 46px;
+        right: 0;
+    }
+
+
 }
