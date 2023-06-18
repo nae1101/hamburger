@@ -3,10 +3,10 @@
 // バツ印を押したらサイドバーが右にスライドして画面が明るくなる。
 
 jQuery(function($){
+    alert('テスト');
+
     //Menuをクリックしたら
     $(".js-sidebar-menu").on("click",function(){
-        alert('テスト');
-
         //画面が暗くなる
         $(".l-body__overlay").fadeIn(500).toggleClass("is-open");
         //右からサイドバーがスライドしてくる
