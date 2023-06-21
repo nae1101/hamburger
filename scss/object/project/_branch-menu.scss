@@ -22,9 +22,9 @@
         height: auto;
         position: relative;
         display: flex;
-        flex-direction: column;
+        flex-direction: flex-end;
         justify-content: space-between;
-    }
+        }
 
     >ul {
         display: flex;
@@ -48,13 +48,12 @@
         @include menuBox;
         background: url(/img/take-out.png);
         background-size:cover;
+
     }
     &__02 {
         @include menuBox;
         background: url(/img/eat-in.png);
         background-size:cover;
-    }
-    @mixin menuTitle{
 
     }
 

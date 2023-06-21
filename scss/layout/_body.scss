@@ -3,7 +3,7 @@
 //サイト全体
 .l-body {
     display: flex;
-
+    
     //全体に薄いグレーを敷く
     &__overlay {
         width: 100%;
@@ -12,9 +12,11 @@
         background: rgba(0, 0, 0, 0.502);
         z-index: 99;
         opacity: 0;
+        transition: all 0.3s;
 
         &.is-open {
             opacity: 1;
+            
         }
     }
 }
