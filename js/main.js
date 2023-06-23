@@ -7,6 +7,7 @@ jQuery(function($){
     //Menuをクリックしたら
     $(".js-sidebar-menu").on("click",function(){
         //画面が暗くなる
+        // $(".l-body__overlay").removeClass("display","none");
         $(".l-body__overlay").toggleClass("is-open");
         //bodyが固定される
         $("#body").css("position","fixed");

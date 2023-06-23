@@ -255,17 +255,19 @@ input::-webkit-search-cancel-button {
   height: 100%;
   position: fixed;
   background: rgba(0, 0, 0, 0.502);
-  z-index: 99;
+  z-index: 0;
   opacity: 0;
   transition: all 0.3s;
 }
 .l-body__overlay.is-open {
+  z-index: 11;
   opacity: 1;
 }
 
 .l-container {
   display: block;
   width: 100%;
+  z-index: 10;
 }
 @media screen and (min-width: 1920px) {
   .l-container {
@@ -289,6 +291,7 @@ input::-webkit-search-cancel-button {
   background-color: #FFF7EF;
   width: 100%;
   position: relative;
+  z-index: 10;
 }
 @media screen and (min-width: 1920px) {
   .l-header {
@@ -452,7 +455,8 @@ input::-webkit-search-cancel-button {
   position: absolute;
   right: 0;
   padding: 8px 8px 0 0;
-  z-index: 100;
+  z-index: 12;
+  cursor: pointer;
   font-size: 20px;
   font-size: 1.25rem;
 }
@@ -535,19 +539,13 @@ input::-webkit-search-cancel-button {
 .p-header-text__title {
   padding: 43px 0 0 0;
   text-align: center;
-}
-.p-header-text__title > h1 {
   font-size: 40px;
   font-size: 2.5rem;
 }
 @media screen and (min-width: 1920px) {
-  .p-header-text__title > h1 {
+  .p-header-text__title {
     font-size: 64px;
     font-size: 4rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .p-header-text__title {
     padding: 65px;
   }
 }
@@ -555,11 +553,8 @@ input::-webkit-search-cancel-button {
 .p-firstview {
   width: 100%;
   height: auto;
+  background-image: url(./img/front-page-top.jpg);
   position: relative;
-}
-.p-firstview > img {
-  width: 100%;
-  height: auto;
 }
 .p-firstview__title {
   position: absolute;
@@ -620,6 +615,7 @@ input::-webkit-search-cancel-button {
 }
 .p-branch-menu > ul > li {
   display: flex;
+  width: 100%;
 }
 .p-branch-menu__01 {
   width: 100%;

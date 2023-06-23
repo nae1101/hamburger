@@ -5,6 +5,7 @@
     background-color: #FFF7EF;
     width: 100%;
     position: relative;
+    z-index:10;
 
     @include mq(pc){
         display: flex;

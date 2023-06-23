@@ -5,15 +5,17 @@
     &__title {
         padding: 43px 0 0 0;
         text-align: center;
+        @include rem(40);
+
         
-        >h1 {
-            @include rem(40);
-            @include mq(pc){
-                @include rem(64);
-            }
-        }
+        // >h1 {
+        //     @include mq(pc){
+        //         @include rem(64);
+        //     }
+        // }
 
         @include mq(pc){
+            @include rem(64);
             padding: 65px;
         }
 

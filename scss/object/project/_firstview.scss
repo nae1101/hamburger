@@ -4,12 +4,13 @@
 .p-firstview {
     width: 100%;
     height: auto;
+    background-image: url(./img/front-page-top.jpg);
     position: relative;
 
-    >img {
-        width: 100%;
-        height: auto;
-    }
+    // >img {
+    //     width: 100%;
+    //     height: auto;
+    // }
     
     &__title {
         position: absolute;
