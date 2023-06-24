@@ -22,8 +22,8 @@
         height: auto;
         position: relative;
         display: flex;
-        flex-direction: flex-end;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: flex-end;
         }
 
     >ul {
@@ -96,7 +96,7 @@
         padding: 8px 16px;
         margin: 16px;
 
-        >dl {
+        >dl >dt {
             font-weight: 700;
             margin: 0 0 8px 0;
             @include rem(22);
@@ -111,13 +111,13 @@
     }
     
     &__detail {
-        margin: 298px 0 0 0;
+        margin: min(298px) 0 0 0;
 
         @include mq(tab){
-            margin: 340px 0 0 0;
+            margin: min(340px) 0 0 0;
         }
         @include mq(pc){
-            margin: 824px 0 0 0;
+            margin: min(824px) 0 0 0;
         }
     }
 
