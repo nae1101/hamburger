@@ -1,0 +1,15 @@
+@use "../../foundation/mixin" as *;
+
+.c-display {
+    &__flex {
+        display: flex;
+    }
+    &__flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    &__block {
+        display: block;
+    }
+}

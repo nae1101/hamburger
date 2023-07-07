@@ -39,4 +39,24 @@
         transform: translate(-50%,-50%) rotate(-45deg);
       }
     }
+
+    &__prev {
+      width: 17.53px;
+      height: 17.07px;
+      background-image: url(../../../img/prev.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 10px;
+    }
+    &__next {
+      width: 17.53px;
+      height: 17.07px;
+      background-image: url(../../../img/next.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 10px;
+
+    }
 }

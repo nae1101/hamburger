@@ -15,6 +15,8 @@
 @use "object/component/_font";
 @use "object/component/_line";
 @use "object/component/_fontweight";
+@use "object/component/_display";
+@use "object/component/_box";
 
 @use "object/project/_copyright";
 @use "object/project/_footer-text";
@@ -25,5 +27,8 @@
 @use "object/project/_branch-menu";
 @use "object/project/_access";
 @use "object/project/_sidebar-menu";
+@use "object/project/_archive";
+@use "object/project/_card";
+@use "object/project/_pagination";
 
 @use "object/utility/_color";
