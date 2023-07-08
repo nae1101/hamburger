@@ -217,6 +217,8 @@ body {
   background: #FFFDFA;
   width: 100%;
   height: 100%;
+  min-height: 100vh;
+  min-width: 320px;
 }
 
 img {
@@ -269,7 +271,7 @@ input::-webkit-search-cancel-button {
   width: 100%;
   z-index: 10;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .l-container {
     width: 80%;
   }
@@ -278,6 +280,7 @@ input::-webkit-search-cancel-button {
 .l-footer {
   width: 100%;
   height: auto;
+  min-width: 320px;
   background: url(/img/footer.png);
   text-align: center;
   display: flex;
@@ -293,7 +296,7 @@ input::-webkit-search-cancel-button {
   position: relative;
   z-index: 10;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .l-header {
     display: flex;
     justify-content: space-between;
@@ -310,7 +313,7 @@ input::-webkit-search-cancel-button {
   top: 0;
   right: -87.4%;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .l-sidebar {
     width: 44%;
   }
@@ -322,7 +325,7 @@ input::-webkit-search-cancel-button {
   overflow-y: auto;
   overscroll-behavior-y: contain;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .l-sidebar {
     width: 20%;
     height: auto;
@@ -342,7 +345,7 @@ input::-webkit-search-cancel-button {
   background-color: #ffffff;
   border-radius: 20px;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .c-button--detail {
     border-radius: 50px;
   }
@@ -362,7 +365,7 @@ input::-webkit-search-cancel-button {
   width: 32px;
   height: 36px;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .c-icon__close {
     display: block;
   }
@@ -452,12 +455,12 @@ input::-webkit-search-cancel-button {
   font-size: 0.875rem;
   padding: 16px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-footer-copyright {
     padding: 24px;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-footer-copyright {
     padding: 27px;
   }
@@ -468,12 +471,12 @@ input::-webkit-search-cancel-button {
   margin: 0 auto;
   padding: 16px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-footer-text {
     padding: 30px;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-footer-text {
     padding: 41px;
   }
@@ -485,13 +488,13 @@ input::-webkit-search-cancel-button {
   font-size: 18px;
   font-size: 1.125rem;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-footer-text.c-font__Mplus1 {
     font-size: 20px;
     font-size: 1.25rem;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-footer-text.c-font__Mplus1 {
     font-size: 20px;
     font-size: 1.25rem;
@@ -508,14 +511,14 @@ input::-webkit-search-cancel-button {
   font-size: 20px;
   font-size: 1.25rem;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-nav__title {
     padding: 1% 2.9%;
     font-size: 34px;
     font-size: 2.125rem;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-nav__title {
     display: none;
   }
@@ -525,7 +528,7 @@ input::-webkit-search-cancel-button {
   width: 36px;
   margin: 8px 11px auto auto;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-nav__close {
     display: none;
   }
@@ -539,7 +542,7 @@ input::-webkit-search-cancel-button {
   gap: 14px;
   padding: 40px 3%;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-search {
     width: 35%;
   }
@@ -562,7 +565,7 @@ input::-webkit-search-cancel-button {
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-search__input.c-input--search {
     width: 100%;
     height: 46px;
@@ -577,7 +580,7 @@ input::-webkit-search-cancel-button {
   width: 90px;
   height: 46px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-search__button.c-button--search {
     width: 136px;
     height: 46px;
@@ -590,7 +593,7 @@ input::-webkit-search-cancel-button {
   font-size: 40px;
   font-size: 2.5rem;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-header-text__title {
     font-size: 64px;
     font-size: 4rem;
@@ -606,7 +609,7 @@ input::-webkit-search-cancel-button {
      object-fit: cover;
   position: relative;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-firstview {
     min-height: 530px;
   }
@@ -636,13 +639,13 @@ input::-webkit-search-cancel-button {
   font-size: 2.25rem;
   display: block;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-firstview__title {
     left: 10%;
     display: flex;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-firstview__title {
     font-size: 40px;
     font-size: 2.5rem;
@@ -656,7 +659,7 @@ input::-webkit-search-cancel-button {
   font-size: 1rem;
   padding: 12px 0 0 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-firstview__title > h3 {
     padding: 25px 10px 10px 10px;
   }
@@ -669,14 +672,14 @@ input::-webkit-search-cancel-button {
   display: block;
   padding: 5.3%;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-branch-menu {
     display: flex;
     padding: 4.7%;
     gap: 4.7%;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-branch-menu {
     display: flex;
   }
@@ -688,12 +691,12 @@ input::-webkit-search-cancel-button {
   gap: 4.7%;
   row-gap: 20px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-branch-menu > ul {
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-branch-menu > ul {
     flex-direction: row;
   }
@@ -740,7 +743,7 @@ input::-webkit-search-cancel-button {
   border-bottom: 4px solid #FFFFFF;
   padding: 3% 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-branch-menu__title {
     top: 2%;
     left: 11px;
@@ -748,7 +751,7 @@ input::-webkit-search-cancel-button {
     font-size: 2.75rem;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-branch-menu__title {
     top: 24px;
     left: 11px;
@@ -768,13 +771,13 @@ input::-webkit-search-cancel-button {
   font-size: 22px;
   font-size: 1.375rem;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-branch-menu__whiteBox > dl > dt {
     font-size: 24px;
     font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-branch-menu__whiteBox > dl > dt {
     font-size: 24px;
     font-size: 1.5rem;
@@ -783,12 +786,12 @@ input::-webkit-search-cancel-button {
 .p-branch-menu__detail {
   margin: 298px 0 0 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-branch-menu__detail {
     margin: 340px 0 0 0;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-branch-menu__detail {
     margin: 824px 0 0 0;
   }
@@ -815,12 +818,12 @@ input::-webkit-search-cancel-button {
   background-color: rgba(0, 0, 0, 0.3);
   z-index: -1;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-access::after {
     height: 100%;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-access::after {
     width: 950px;
     height: 100%;
@@ -830,12 +833,12 @@ input::-webkit-search-cancel-button {
   padding: 11%;
   word-break: break-all;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-access__textBox {
     padding: 5%;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-access__textBox {
     width: 950px;
   }
@@ -862,7 +865,7 @@ input::-webkit-search-cancel-button {
   line-height: 235%;
   padding: 24% 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-access__text {
     padding: 5% 0;
   }
@@ -877,7 +880,7 @@ input::-webkit-search-cancel-button {
   font-size: 2.125rem;
   padding: 0 0 70px 0;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-sidebar-menu__title {
     display: block;
   }
@@ -885,7 +888,7 @@ input::-webkit-search-cancel-button {
 .p-sidebar-menu > ul {
   margin: 6.6% auto auto 46px;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-sidebar-menu > ul {
     margin: 0;
   }
@@ -925,7 +928,7 @@ input::-webkit-search-cancel-button {
   width: 163px;
   height: 42px;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-archive__button {
     width: 292px;
     height: 76px;
@@ -947,13 +950,13 @@ input::-webkit-search-cancel-button {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-card__wrapper > img {
     width: 50%;
     height: auto;
   }
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-card__wrapper {
     display: flex;
   }
@@ -973,12 +976,12 @@ input::-webkit-search-cancel-button {
   padding: 9% 5%;
   text-align: left;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-card__textbox {
     padding: 12% 15% 12% 9%;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-card__textbox {
     padding: 12% 15% 12% 9%;
   }
@@ -988,7 +991,7 @@ input::-webkit-search-cancel-button {
   font-size: 1.25rem;
   margin: 0 0 20px 0;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-card__textbox > h2 {
     font-size: 36px;
     font-size: 2.25rem;
@@ -1000,7 +1003,7 @@ input::-webkit-search-cancel-button {
   font-size: 1rem;
   margin: 0 0 7px 0;
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-card__textbox > h3 {
     font-size: 24px;
     font-size: 1.5rem;
@@ -1019,7 +1022,7 @@ input::-webkit-search-cancel-button {
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-pagination__wrapper {
     justify-content: center;
   }
@@ -1034,7 +1037,7 @@ input::-webkit-search-cancel-button {
 .p-pagination__list {
   margin: 0 8px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-pagination__list {
     display: none;
   }
@@ -1045,12 +1048,12 @@ input::-webkit-search-cancel-button {
   font-size: 16px;
   font-size: 1rem;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-pagination__number {
     display: block;
   }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1280px) {
   .p-pagination__next {
     display: none;
   }
@@ -1061,7 +1064,7 @@ input::-webkit-search-cancel-button {
   font-size: 16px;
   font-size: 1rem;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
   .p-pagination__box {
     display: flex;
     margin: 0 0.4%;

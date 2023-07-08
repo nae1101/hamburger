@@ -1,7 +1,7 @@
 //レスポンシブ//
 $breakpoint: (
-  tab: 'screen and (min-width: 376px)',
-  pc: 'screen and (min-width: 1920px)'
+  tab: 'screen and (min-width: 500px)',
+  pc: 'screen and (min-width: 1280px)'
 );
 
 @mixin mq($bp) {
