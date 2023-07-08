@@ -35,6 +35,7 @@
 
     &__number {
         display: none;
+        white-space: nowrap;
         @include rem(16);
 
         @include mq(tab){
@@ -56,7 +57,7 @@
 
         @include mq(tab){
             display: flex;
-            margin: 0 7.5px;
+            margin: 0 0.4%;
         }
     }
 }

@@ -510,7 +510,7 @@ input::-webkit-search-cancel-button {
 }
 @media screen and (min-width: 376px) {
   .p-nav__title {
-    padding: 20px 25px;
+    padding: 1% 2.9%;
     font-size: 34px;
     font-size: 2.125rem;
   }
@@ -962,19 +962,16 @@ input::-webkit-search-cancel-button {
   width: 100%;
   height: auto;
   background-color: #3C2B1C;
+  text-align: center;
 }
 .p-card__textarea > button {
-  margin: 0 0 43px 23.8%;
-}
-@media screen and (min-width: 376px) {
-  .p-card__textarea > button {
-    margin: 0 0 12.7% 30%;
-  }
+  margin: 0 auto 12.7%;
 }
 .p-card__textbox {
   width: 100%;
   height: auto;
   padding: 9% 5%;
+  text-align: left;
 }
 @media screen and (min-width: 376px) {
   .p-card__textbox {
@@ -1044,6 +1041,7 @@ input::-webkit-search-cancel-button {
 }
 .p-pagination__number {
   display: none;
+  white-space: nowrap;
   font-size: 16px;
   font-size: 1rem;
 }
@@ -1066,7 +1064,7 @@ input::-webkit-search-cancel-button {
 @media screen and (min-width: 376px) {
   .p-pagination__box {
     display: flex;
-    margin: 0 7.5px;
+    margin: 0 0.4%;
   }
 }
 

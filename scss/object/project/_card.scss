@@ -28,17 +28,16 @@
         width: 100%;
         height: auto;
         background-color: #3C2B1C;
+        text-align: center;
         >button {
-            margin: 0 0 43px 23.8%;
-            @include mq(tab){
-                margin: 0 0 12.7% 30%;
-            }
+            margin: 0 auto 12.7%;
         }
     }
     &__textbox {
         width: 100%;
         height: auto;
         padding: 9% 5%;
+        text-align: left;
 
         @include mq(tab){
             padding: 12% 15% 12% 9%
