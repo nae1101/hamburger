@@ -31,5 +31,16 @@ jQuery(function($){
         $(".l-sidebar").removeClass("is-open");
 
     })
-    
+
+    //画面幅がタブレット以上のとき、js-single__listのクラスc-margin__leftを外す
+    $(window).resize(function(){
+        if ($(window).width()< 499 ){
+            $(".js-single__list").removeClass("c-margin--left50");
+            $(".js-single__list02").removeClass("c-margin--left68");
+        } else {
+            $(".js-single__list").addClass("c-margin--left50");
+            $(".js-single__list02").addClass("c-margin--left68");
+
+        }
+    })
 })

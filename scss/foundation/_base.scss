@@ -1,3 +1,5 @@
+@use "../foundation/mixin" as *;
+
 body {
     font-family: 'M PLUS 1','M PLUS 1 Code', 'Robot',sans-serif;
     box-sizing: border-box;
@@ -36,3 +38,29 @@ a,a:active,a:focus {
 input::-webkit-search-cancel-button {    
     -webkit-appearance: none;    /* デフォルトのサーチキャンセルボタンを非表示にする場合 */
   }
+
+cite {
+    color: #4A6C9B;
+    
+}
+
+pre {
+    padding: 5%;
+    background-color: #F5F5F5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid #707070;
+    padding: 30px;
+    text-align: left;
+}
+
+th {
+    width: 35%;
+    font-weight: 500;
+}

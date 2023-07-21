@@ -30,6 +30,36 @@
             background-color: rgba(0,0,0,0.4);
         }
     }
+
+    &__single {
+        width: 100%;
+        height: auto;
+        position: relative;
+        min-height: 225px;
+        background-image: url(/img/single-top.png);
+        background-size: cover;
+        @include mq(tab){
+            min-height: 505px;
+        }
+        @include mq(pc){
+            min-height: 500px;
+        }
+    }
+
+    &__shop {
+        width: 100%;
+        height: auto;
+        position: relative;
+        min-height: 225px;
+        background-image: url(/img/shop.png);
+        background-size: cover;
+        @include mq(tab){
+            min-height: 505px;
+        }
+        @include mq(pc){
+            min-height: 500px;
+        }
+    }
     
     &__title {
         position: absolute;
@@ -60,4 +90,5 @@
             }
         }
     }
+
 }
